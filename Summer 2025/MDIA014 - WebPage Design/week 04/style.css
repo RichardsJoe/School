@@ -1,0 +1,147 @@
+body {
+	background-color: white;
+	padding-bottom: 20px;
+	margin: 10;
+	padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: salmon; 
+  box-shadow: 0 2px 5px black;
+  margin-top:0px;
+}
+
+nav ul {
+	text-align: right; /* align property */
+	list-style: none;
+}
+
+nav ul li {
+	display: inline; /* display property */
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+a:hover,
+a:active {
+	color: black;
+	font-weight: bold;
+}
+
+.active{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+img {
+    display: block;
+    border-radius: 25px;
+    max-width: 100%; /* max-width property */
+    height: auto;
+    margin-bottom: 12px;
+	box-shadow: 0 2px 5px black;
+}
+
+h1 {
+	text-align: center;
+	background-color: salmon;
+	box-shadow: 0 2px 5px black;
+}
+
+h1 > a {
+	color: white;
+	text-decoration: none;
+}
+
+
+ul li {
+	padding-left: 20px;
+
+}
+
+footer {
+    height: 20px;
+    width: 100%;
+    background-color: lightsalmon;
+    color: black;
+    text-align: center;
+    font-size: .8em;
+    position: fixed; /* position property */
+    left: 0;
+    bottom: 0;
+
+}
+
+.clear-textbox li { /*psudeo-clss*/
+	background-color: hsla(225,100%,15%,0.1); /* text on a transparent box, used as a Highlighter */
+	border-radius: 10px;
+}
+
+.park_image img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.park_image cite {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 20px
+}
+
+.park_features {
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px black;
+  padding: 20px;
+  max-width: 33%;
+  margin: 50px auto;
+  margin-left: 50px;
+  overflow: hidden; /* overflow property */
+  float: left; /* float property */
+}
+
+.park_features img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;  
+}
+
+.park_features ul {
+  margin-top: 25px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.park_features li {
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+
+p::first-letter { /*psudeo-element*/
+	color:red;
+	font-size: 32px;
+}
+
+#home {
+	background-color: rgba(255, 126, 112, .3);
+	min-height: 100vh;
+}
+
+#visit {
+	background-color: rgba(255, 126, 112, .3);
+	min-height: 100vh;
+}
