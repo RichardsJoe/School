@@ -1,0 +1,129 @@
+/*
+A&S Painting Styles Page
+Author:	Richards, Joseph
+Date:	2025/06/09
+Filename: richards_A&S_styles.css */
+
+html {
+	background-color:rgb(44, 43, 48);
+}
+
+body {
+	background-color: #4F4F51;
+	color: #F58F7C;
+	margin: auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: #D6D6D6;
+	color: #2c2b30;
+	text-align: right;
+	padding: 2px;
+}
+
+nav {
+	border-style: ridge;
+	border-width: 3px;
+	border-color: lightpink;
+}
+
+nav ul {
+	height: 30px;
+	font-weight: bold;
+	list-style: none;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;	
+}
+
+img {
+	padding: 10px;
+}
+
+aside {
+    background-color: #F58F7C;
+    background-image: url("outsidepainter.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+
+blockquote {
+	color: #2C2B30;
+	text-align: left;
+	text-shadow: 5px 2px 5px #F2C4CE;
+	padding: 10px;
+}
+
+blockquote cite{
+	display: block; 
+	text-align: right;
+}
+
+article {
+	background-color: rgb(79,79, 81);
+	width: 50%;
+	float: right;
+	display: block;
+	margin-top: 10px;
+}
+
+article header {
+	background-color: rgb(204, 204, 204);
+	color: #2C2B30;
+	text-align: left;
+}
+
+article img {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 35%;
+	float: right;	
+}
+
+h1 {
+	margin-left: 10px;
+}
+
+p {/* top right bottom left; */
+	margin: 10px 20px 10px 20px;
+	display: block;
+}
+
+address {
+	color: #D6D6D6;
+	background-color: #4F4F51;
+	font-size: 0.9em;
+	/* top right bottom left; */
+	padding: 10px 0px 20px 0px;
+	text-align: center;
+}
+
+
+footer {
+	background-color: #D6D6D6;
+	color: #2C2B30;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 6px;
+}
+
+a:link, a:visited {
+	color: salmon;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active{
+	background-color: #2C2B30;
+}
+
