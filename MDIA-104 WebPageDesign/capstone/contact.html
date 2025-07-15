@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	Double check this section to just make sure I'm in the correct document.
+	
+	Capstone Project: Satisfactory
+	Author: Richards, Joseph
+	Date: 2025/07/08	
+	Student Filename: contact.html
+	
+-->
+	<head>	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Satisfactory | Contact</title>
+		<meta name="description" content="Capstone project, with a focus on the game 'Satisfactory'">
+		<link rel="stylesheet" type="text/css" href="satisfactory.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header>
+			<img src="images/banner_02.png">
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="getting_started.html">Getting Started</a></li>
+				<li><a href="buildings.html">First Buildings</a></li>
+				<li><a href="basic_setups.html">Basic Setups</a></li>
+				<li><a href="purchase.html">Purchase</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<div id="main_center">
+				<h1>Constructive Criticism</h1>
+				<p>We at Ficist understand the importance of ensuring that engineers feel motivated, drive, and most of all, human! If you have concerns, suggestions or feedback please reach out to us. We will ensure proper implementation of the best ideas for future engineers!</p>
+			
+				<div id="user_form">
+					<form action="/action_page.php" method="post">
+						<h3>Engineer Report</h3>
+					
+							<div class="form-row">
+								<label for="ename">Engineer name:</label>
+								<input type="text" id="ename" name="ename" placeholder="Employee 7891">
+							</div>
+
+							<div class="form-row">
+								<input type="checkbox" id="subject01" name="subjects[]" value="happy_employee">
+								<label for="subject01">It's great to be part of Ficist!</label>
+							</div>
+							
+							<div class="form-row">
+								<input type="checkbox" id="subject02" name="subjects[]" value="new_buildings">
+								<label for="subject02">New Buildings</label>
+							</div>
+							
+							<div class="form-row">
+								<input type="checkbox" id="subject03" name="subjects[]" value="factory_setup">
+								<label for="subject03">Factory Setups</label>
+							</div>
+							
+							<div class="form-row">
+							<label for="details">Details:</label>
+							<br>
+							</div>
+							<div class="form-row">
+								<textarea id="details" name="details" rows="10" cols="100" placeholder="Begin feedback..."></textarea>
+							</div>
+						
+							<input onclick="btn_submit_feedback()" type="submit" value="Submit">
+							
+					
+					</form>
+				</div>
+			</div>
+		</main>
+
+
+	<footer>
+	</footer>
+		<script>
+			function btn_submit_feedback(){
+				alert("Thank you for your feedback!");
+			}
+		</script>
+	
+	</body>
+
+</html>
