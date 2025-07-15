@@ -1,0 +1,41 @@
+nav {
+	text-align: center;
+	font-weight: bold;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+header {
+	background-color: #f6f4f7;
+	background-image: url("awheader.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+body {
+  background-color: #4B433A;
+  color: #A19688;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+	line-height: 300%;
+	padding-left: 1em;
+}
+
+li {
+	font-size: 90%;
+}
+
+dd {
+	font-size: 90%;
+}
+
+footer {
+	background-color: #FFFFFF;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+}

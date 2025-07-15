@@ -1,0 +1,85 @@
+#home {
+  height: 12vh;                  
+  padding-bottom: 10em;          
+  padding-left: 1em;             
+  font-size: 150%;               
+  min-height: 120px;             
+  background-repeat: repeat-x;   
+}
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  background-color: #f6f4f7;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link{
+  color: #A19688;
+}
+
+nav a:visited{
+  color: #cc6600;
+}
+
+nav a:hover{
+  color: maroon;
+  text-shadow: 2px 8px 0 #A19688;
+}
+
+header {
+  background-color: #f6f4f7;
+  background-image: url("awheader.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+body {
+  background-color: maroon;
+  color: #A19688;
+  font-family: 'Trebuchet MS', sans-serif;
+  max-width: 1200px;
+  min-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  line-height: 300%;
+  padding-left: 1em;
+}
+
+h2 {
+  margin: 0;
+}
+
+img {
+  height: 25%;
+  width: 25%;
+  border: 5px outset orange;
+  float: right;
+}
+
+li {
+  font-size: 90%;
+}
+
+dd {
+  font-size: 90%;
+}
+
+footer {
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+}
+
+footer a:hover {
+  color: #cc6600;
+} 
